@@ -1,0 +1,48 @@
+id,teacher_type,level,parent_id,name,name_en,weight,sort_order,is_active
+1701428679489540097,CN,1,,教学态度,Teaching attitude,0.30,1,1
+1701441480366927873,CN,1,,师生交流,Communication between teachers and students,0.20,2,1
+1701441537589817345,CN,1,,教学效果,Teaching effectiveness,0.20,3,1
+1701441795883446273,CN,1,,教学内容,Content of courses,0.20,4,1
+1701442392766459906,CN,1,,教学能力,Teaching ability,0.10,5,1
+1701442448328404994,INTL,1,,助学态度,Attitude towards assistantship,0.50,1,1
+1701443148718452737,INTL,1,,助学效果,Student aid effect,0.40,2,1
+1701443534888022052,INTL,1,,思政行为,Ideological and political behavior,0.10,3,1
+1701443350573527042,CN,2,1701428679489540097,课前准备充分,Adequate preparation before class,,1,1
+1701443534888022018,CN,2,1701428679489540097,课堂教学认真投入,Serious investment in classroom teaching,,2,1
+1701443534888022019,CN,2,1701428679489540097,课堂教学精神饱满,Full class teaching spirit,,3,1
+1701443534888022020,CN,2,1701441480366927873,师生互动，关系融洽，课堂气氛活跃,Teacher-student interaction,,1,1
+1701443534888022021,CN,2,1701441480366927873,认真批改作业,Carefully correct the homework,,2,1
+1701443534888022022,CN,2,1701441480366927873,及时反馈作业情况,Timely feedback on operation,,3,1
+1701443534888022023,CN,2,1701441480366927873,乐于课下指导，勤于答疑解惑,Be willing to guide after class,,4,1
+1701443534888022024,CN,2,1701441537589817345,总体来说教授这门科目的老师很称职,Generally speaking,,1,1
+1701443534888022025,CN,2,1701441537589817345,总体来说学习这门科很有收获,Generally speaking,,2,1
+1701443534888022026,CN,2,1701441537589817345,授课老师有自己的风格和特色，激发了我进一步学习该课程的兴趣,The instructor has his own style and characteristics,,3,1
+1701443534888022027,CN,2,1701441537589817345,培养学科素养，注重知识的迁移运用,Cultivate discipline quality and pay attention to the transfer and application of knowledge,,4,1
+1701443534888022028,CN,2,1701441537589817345,积极反馈学生作业中存在的问题，在课堂中予以解答,Actively feedback the problems in students' homework and answer them in class,,5,1
+1701443534888022029,CN,2,1701441795883446273,课堂检测难度适中,Moderate difficulty in classroom testing,,1,1
+1701443534888022030,CN,2,1701442392766459906,英语发音清晰，表述清楚，条理清晰,English pronunciation is clear,,1,1
+1701443534888022031,CN,2,1701442392766459906,课件，板书设计合理,Courseware and blackboard writing are reasonably designed,,2,1
+1701443534888022032,CN,2,1701442392766459906,教学视频制作精良,Excellent teaching video production,,3,1
+1701443534888022033,CN,2,1701442392766459906,内容充实，重点突出,The content is substantial and the focus is prominent,,4,1
+1701443534888022034,CN,2,1701442392766459906,教学方法灵活,Flexible teaching methods,,5,1
+1701443534888022035,CN,2,1701442392766459906,关注课程学习状况，严格要求课堂纪律,Pay attention to the course learning situation and strictly require classroom discipline,,6,1
+1701443534888022036,CN,2,1701442392766459906,课堂作业难度适中，与课程结合紧密,Classroom assignments are moderately difficult and closely integrated with the course,,7,1
+1701443534888022037,CN,2,1701442392766459906,教学时注重理论与教学实践操作结合,Pay attention to the combination of theory and teaching practice in teaching,,8,1
+1701443534888022038,INTL,2,1701442448328404994,课前准备充分，及时建好课程群,Make full preparation before class and build a course group in time,,1,1
+1701443534888022039,INTL,2,1701442448328404994,及时在网路平台建课，并上传教学材料,Timely build courses on the network platform and upload teaching materials,,2,1
+1701443534888022040,INTL,2,1701442448328404994,能提前提供相关教学材料及参考资料,Be able to provide relevant teaching materials and reference materials in advance,,3,1
+1701443534888022041,INTL,2,1701442448328404994,课前提醒上课,Remind class before class,,4,1
+1701443534888022042,INTL,2,1701442448328404994,跟班听课，课上辅助外教维持教学秩序,Follow the class and assist foreign teachers to maintain teaching order,,5,1
+1701443534888022043,INTL,2,1701442448328404994,提醒学生完成课堂作业,Remind students to complete class assignments,,6,1
+1701443534888022044,INTL,2,1701442448328404994,认真辅助外教，解决作业提交问题,Carefully assist foreign teachers to solve the problem of homework submission,,7,1
+1701443534888022045,INTL,2,1701442448328404994,乐于课下指导，勤于答疑解惑,Be willing to guide after class,,8,1
+1701443534888022046,INTL,2,1701442448328404994,及时完成教务系统成绩的录入,Timely complete the score entry of the educational administration system,,9,1
+1701443534888022047,INTL,2,1701442448328404994,及时向外教反馈学生提出的意见,Timely feedback of students' opinions to foreign teachers,,10,1
+1701443534888022048,INTL,2,1701442448328404994,及时通知同学们相关测试，考试安排,Inform the students of relevant tests and exam arrangements in time,,11,1
+1701443534888022049,INTL,2,1701442448328404994,积极与学生沟通交流,Actively communicate with students,,12,1
+1701443534888022050,INTL,2,1701443148718452737,总体来说这门课的老师很称职,Generally speaking,,1,1
+1701443534888022051,INTL,2,1701443148718452737,总体来说这门课的老师很称职,Generally speaking,,2,1
+1701443534888022053,INTL,2,1701443534888022052,教学形式、课程内容对培养学生形成良好的思想道德品质有帮助、树立了良好的职业道德,The teaching form and course content are helpful to cultivate students' good ideological and moral qualities and establish good professional ethics,,1,1
+1701443534888022054,INTL,2,1701443534888022052,教学形式、课程内容对培养学生的科学素养、创新精神有帮助,The teaching form and course content are helpful to cultivate students' scientific literacy and innovative spirit,,2,1
+1701443534888022055,INTL,2,1701443534888022052,教学形式、课程内容锻炼了学生的团结合作能力、开拓了学生的国籍视野,The teaching form and course content have trained the students' ability of unity and cooperation and broadened their horizons of nationality,,3,1
+1701443534888022056,INTL,2,1701443534888022052,教学形式、课程内容锻炼了学生的工程实践能力,The teaching form and course content exercise students' engineering practice ability,,4,1

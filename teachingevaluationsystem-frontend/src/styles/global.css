@@ -1,0 +1,134 @@
+* { box-sizing: border-box; }
+body { margin: 0; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; background: #f5f7fb; }
+a { color: inherit; text-decoration: none; }
+.page-wrap { padding: 20px; }
+.toolbar { display: flex; gap: 12px; margin-bottom: 14px; flex-wrap: wrap; }
+
+/* Admin: query/filter area stays fixed while content scrolls */
+.main-scroll .query-bar {
+  position: static;
+  z-index: 1;
+  margin-bottom: 16px;
+  padding: 10px 12px 8px;
+  background: #fff;
+  border-radius: 8px;
+  border: 1px solid #eef2f7;
+  box-shadow: 0 4px 14px rgba(15, 23, 42, 0.04);
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px 12px;
+}
+
+/* Element Plus card uses overflow clipping by default, which can disable sticky descendants */
+.main-scroll .el-card {
+  overflow: visible;
+  height: 100%;
+}
+
+.main-scroll .el-card > .el-card__body {
+  height: 100%;
+  min-height: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Data area separated from query area */
+.main-scroll .admin-data-panel {
+  flex: 1;
+  min-height: 0;
+  overflow: hidden;
+  display: grid;
+  grid-template-rows: minmax(0, 1fr) auto;
+  margin-top: 6px;
+  background: #fff;
+  border: 1px solid #eef2f7;
+  border-radius: 10px;
+  padding: 0;
+}
+
+.main-scroll .admin-data-panel .el-table {
+  border: 0;
+  height: 100%;
+}
+
+.main-scroll .admin-data-panel .pager-wrap {
+  position: relative;
+  padding: 10px 0 6px;
+  margin-top: 0;
+  background: #fff;
+  border-top: 1px solid #eef2f7;
+}
+
+/* Query form uses percentage layout to keep controls within one screen width */
+.main-scroll .query-bar .el-form-item {
+  margin: 0 !important;
+  flex: 0 1 calc(20% - 12px);
+  min-width: 180px;
+}
+
+.main-scroll .query-bar .el-form-item .el-form-item__content {
+  width: 100%;
+}
+
+.main-scroll .query-bar .el-input,
+.main-scroll .query-bar .el-select,
+.main-scroll .query-bar .el-input-number,
+.main-scroll .query-bar .el-date-editor {
+  width: 100% !important;
+}
+
+/* Button groups keep natural width */
+.main-scroll .query-bar .el-form-item:last-child,
+.main-scroll .query-bar .el-form-item.query-actions {
+  flex: 0 0 auto;
+  min-width: auto;
+}
+
+.toolbar > * {
+  min-width: 120px;
+}
+
+.n-card {
+  border-radius: 12px;
+}
+
+.n-modal {
+  max-width: calc(100vw - 24px) !important;
+}
+
+@media (max-width: 1024px) {
+  .page-wrap {
+    padding: 14px;
+  }
+
+  .main-scroll .query-bar .el-form-item {
+    flex-basis: calc(33.333% - 12px);
+    min-width: 160px;
+  }
+}
+
+@media (max-width: 768px) {
+  .page-wrap {
+    padding: 10px;
+  }
+
+  .toolbar {
+    gap: 8px;
+  }
+
+  .toolbar > * {
+    min-width: 0;
+    flex: 1 1 100%;
+  }
+
+  .main-scroll .query-bar .el-form-item {
+    flex-basis: calc(50% - 12px);
+    min-width: 0;
+  }
+}
+
+@media (max-width: 560px) {
+  .main-scroll .query-bar .el-form-item {
+    flex-basis: 100%;
+  }
+}
